@@ -1,5 +1,6 @@
 # Use the official Python 3.6.5 image
-FROM python:3.8.10-alpine
+FROM python:3.8.7-buster
+#FROM python:3.8.10-alpine
 
 # Set the working directory to /app
 WORKDIR /app
